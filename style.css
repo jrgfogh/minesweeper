@@ -1,0 +1,154 @@
+﻿fieldset {
+    display: inline-block;
+    padding: 25px 30px;
+    border: 3px darkBlue solid;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    line-height: 3em;
+    text-shadow: none;
+}
+
+body {
+    background-color: #f3f3f0;
+    font-family: Arial, sans-serif;
+    color: darkBlue;
+    text-shadow: #999 1px 1px;
+    text-align: center;
+}
+
+ul {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: darkBlue;
+    list-style-position: inside;
+}
+
+table {
+    border-spacing: 0;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    background-color: lightBlue;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#board,#game_wrapper {
+    display: inline-block;
+}
+
+#levels {
+    margin-top: 3em;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+#levels > li {
+    line-height: 3em;
+}
+
+#levels > li > label {
+    margin: -1.5em;
+    padding: 1em 2em;
+}
+
+#clock,#flag_counter {
+    font-size: x-large;
+    vertical-align: middle;
+}
+
+button.new_game {
+    font-size: 1em;
+    margin: 0.5em;
+    padding: 0.5em 1.5em;
+}
+
+.cell {
+    vertical-align: middle;
+    font-size: large;
+    width: 1.6em;
+    height: 1.6em;
+    background-color: #ccc;
+    background-size: cover;
+    border: 1px solid #aaa;
+    text-align: center;
+    font-weight: bold;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cell.clicked,.cell.depressed {
+    background-color: #ddd;
+    border: 1px dotted #bbb;
+}
+
+.cell.flag {
+    /* TODO(jrgfogh): Show an actual flag. */
+    background-color: Red;
+    background-image: None;
+}
+
+.cell.defused {
+    background-color: #fde02d;
+}
+
+.cell.mine {
+    background-color: #30303a;
+}
+
+.cell.zero {
+}
+
+.cell.one {
+    color: Blue;
+}
+
+.cell.two {
+    color: Red;
+}
+
+.cell.three {
+    color: Orange;
+}
+
+.cell.four {
+    color: Brown;
+}
+
+.cell.five {
+    color: Magenta;
+}
+
+.cell.six {
+    color: Black;
+}
+
+.cell.seven {
+    color: Yellow;
+}
+
+.cell.eight {
+    color: Gold;
+}
+
+.cell.nine {
+    color: Silver;
+}

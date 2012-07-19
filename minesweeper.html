@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mine Sweeper</title>
+		<link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="minesweeper.js"></script>
+	</head>
+	<body>
+		<h1>Mine Sweeper</h1>
+            <fieldset>
+	        <div id="game_wrapper">
+                    <div id="topbar">
+                        <span id="clock"></span>
+			<button class="new_game" type="button">New Game!</button>
+			<span id="flag_counter"></span>
+                    </div>
+		    <div id="board"></div>
+		</div>
+                <ul id="levels">
+                    <li><input id="beginner" value="beginner" type="radio" name="level" /><label for="beginner">Beginner</label></li>
+                    <li><input id="intermediate" value="intermediate" type="radio" name="level" /><label for="intermediate">Intermediate</label></li>
+                    <li><input id="expert" value="expert" type="radio" name="level" /><label for="expert">Expert</label></li>
+                </ul>
+            </fieldset>
+	</body>
+</html>
